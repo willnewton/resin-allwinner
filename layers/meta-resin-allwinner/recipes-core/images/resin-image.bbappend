@@ -31,7 +31,7 @@ IMAGE_FSTYPES_append_orange-pi-lite = " resinos-img"
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_orange-pi-lite = "u-boot"
 RESIN_BOOT_PARTITION_FILES_orange-pi-lite = "${RESIN_BOOT_FILES_H3} \
-    uImage-sun8i-h3-orangepi-lite.dtb:/dtb/sun8i-h3-orangepi-lite.dtb \ "
+    uImage-sun8i-h3-orangepi-lite.dtb:/dtb/sun8i-h3-orangepi-lite.dtb \"
 
 IMAGE_CMD_resinos-img_append_orange-pi-lite () {
     # orange-pi-lite needs uboot written at a specific location
