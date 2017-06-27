@@ -23,6 +23,11 @@ SRC_URI_append_orange-pi-lite = " \
     file://411-add-realtek-8189fs-driver.patch \
 "
 
+SRC_URI_append_orange-pi-plus2e = " \
+    file://411-add-realtek-8189fs-driver.patch \
+    file://411-add-emac-pwr-en-orangepi-plus2e.patch \
+"
+
 RESIN_CONFIGS_append = " \
     configfs \
     "
